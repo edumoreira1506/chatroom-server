@@ -1,4 +1,4 @@
-# chatroom-client
+# chatroom-server
 
 ## Dependencies
 
@@ -11,8 +11,8 @@ Nodemon >= 2.0
 
 Clone the project.
 ```console
-$ git clone git@github.com:edumoreira1506/chatroom-client.git
-$ cd chatroom-client
+$ git clone git@github.com:edumoreira1506/chatroom-server.git
+$ cd chatroom-server
 ```
 
 Copy the contents of the `.env.example` to `.env` then change with the credentials of your local environment.

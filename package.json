@@ -1,5 +1,5 @@
 {
-  "name": "chatroom-client",
+  "name": "chatroom-server",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edumoreira1506/chatroom-client.git"
+    "url": "git+https://github.com/edumoreira1506/chatroom-server.git"
   },
   "author": "Eduardo Moreira",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/edumoreira1506/chatroom-client/issues"
+    "url": "https://github.com/edumoreira1506/chatroom-server/issues"
   },
-  "homepage": "https://github.com/edumoreira1506/chatroom-client#readme",
+  "homepage": "https://github.com/edumoreira1506/chatroom-server#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
