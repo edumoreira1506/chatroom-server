@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/edumoreira1506/chatroom-client/issues"
   },
-  "homepage": "https://github.com/edumoreira1506/chatroom-client#readme"
+  "homepage": "https://github.com/edumoreira1506/chatroom-client#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
 }
