@@ -10,3 +10,7 @@ const server = app.listen(port, () => {
 
 const io = socketIo.listen(server);
 app.set('io', io);
+
+module.exports = {
+  io
+};
