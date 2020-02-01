@@ -1,0 +1,19 @@
+{
+  "name": "chatroom-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edumoreira1506/chatroom-client.git"
+  },
+  "author": "Eduardo Moreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edumoreira1506/chatroom-client/issues"
+  },
+  "homepage": "https://github.com/edumoreira1506/chatroom-client#readme"
+}
