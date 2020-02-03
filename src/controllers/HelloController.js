@@ -1,9 +1,4 @@
-const index = (_, res) => {
-  return res.send({
-    ok: true,
-    message: 'Hello world!'
-  });
-}
+const index = (_, res) => res.send('Socket online!');
 
 module.exports = {
   index
