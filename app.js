@@ -10,6 +10,10 @@ const server = app.listen(port, () => {
 const io = require('socket.io').listen(server);
 app.set('io', io);
 
-io.on('connection', function(usuario){
-  console.log('connected!')
+io.on('connection', client => {
+  console.log('User connected')
+
+  client.on('message', message => {
+    client.broadcast.emit('message', message);
+  });
 });
